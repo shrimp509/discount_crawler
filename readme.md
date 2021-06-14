@@ -1,5 +1,5 @@
-# PcHomeDiscountCrawler
-For finding out discount price and notify user
+# DiscountCrawler
+For finding out discount price and notify user. Currently it only supports [PCHome](https://shopping.pchome.com.tw/).
 
 ## Installation
 1. Download `chromedriver` from: [https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
@@ -19,7 +19,8 @@ For finding out discount price and notify user
 ## Usage
 ```bash
 $ source crawler_env/bin/activate
-$ python pc_home_discount_crawler.rb
+$ python discount_crawler.rb
 ```
 
 ## Screenshots
+![screenshot-1](https://github.com/shrimp509/discount_crawler/blob/master/screenshots/screenshot-1.png)
