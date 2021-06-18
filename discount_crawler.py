@@ -10,7 +10,7 @@ products = {
 
 def run_scrawler():
     outputs = []
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome('./chromedriver')
 
     for product_url, min_price in products.items():
         driver.get(product_url)
